@@ -1,0 +1,249 @@
+<!-- Declaring HTML5 Document -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags for encoding and responsiveness -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Page Title -->
+  <title>Vishal's HTML Learning Page</title>
+</head>
+
+<body>
+
+  <!-- HEADER: Top section of the page -->
+  <header>
+    <h1>Welcome to Vishal's HTML Demo Page</h1>
+    <p>This page demonstrates all HTML concepts learned till Module 8.</p>
+    <hr />
+  </header>
+
+  <!-- NAVIGATION MENU -->
+  <nav>
+    <a href="#intro">Intro</a> |
+    <a href="#text-formatting">Text</a> |
+    <a href="#lists">Lists</a> |
+    <a href="#media">Media</a> |
+    <a href="#table">Table</a> |
+    <a href="#form">Form</a> |
+    <a href="#footer">Footer</a>
+    <hr />
+  </nav>
+
+  <!-- MAIN CONTENT AREA -->
+  <main>
+
+    <!-- SECTION: Introduction and Headings -->
+    <section id="intro">
+      <h2>1. Headings and Paragraphs</h2>
+      <h1>Main Heading</h1>
+      <h2>Sub Heading</h2>
+      <h3>Minor Heading</h3>
+      <h4>Fourth Level Heading</h4>
+      <h5>Fifth Level Heading</h5>
+      <h6>Sixth Level Heading</h6>
+
+      <p>This is a paragraph of text.<br>This is a new line using &lt;br&gt;.</p>
+      <hr />
+    </section>
+
+    <!-- SECTION: Text Formatting -->
+    <section id="text-formatting">
+      <h2>2. Text Formatting & Special Characters</h2>
+      <p><b>Bold</b>, <strong>Strong</strong>, <i>Italic</i>, <em>Emphasized</em></p>
+      <p><u>Underlined</u>, <mark>Highlighted</mark></p>
+      <p><del>Old Price ₹500</del> <ins>New Price ₹350</ins></p>
+      <p>5 &lt; 10 and 10 &gt; 5</p>
+      <p>Use &amp; for joining words like Tom &amp; Jerry</p>
+      <p>Space&nbsp;&nbsp;&nbsp;between words</p>
+      <hr />
+    </section>
+
+    <!-- SECTION: Lists -->
+    <section id="lists">
+      <h2>3. Lists</h2>
+      <h3>Ordered List</h3>
+      <ol>
+        <li>Learn HTML</li>
+        <li>Practice HTML</li>
+        <li>Build Projects</li>
+      </ol>
+
+    <!-- Ordered list with custom type: Alphabetic (A, B, ...) -->
+      <h3>Alphabetical Ordered List</h3>
+
+      <ol type="A">
+        <li>Alpha</li> <!-- A -->
+        <li>Beta</li>  <!-- B -->
+      </ol>
+
+      <h3>Unordered List</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+      </ul>
+
+      <h3>Definition List</h3>
+      <dl>
+        <dt>HTML</dt>
+        <dd>Markup Language for Web</dd>
+        <dt>CSS</dt>
+        <dd>Styles the Web Pages</dd>
+      </dl>
+
+      <h3>Nested List</h3>
+      <ol>
+        <li>Frontend
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </li>
+        <li>Backend</li>
+      </ol>
+      <hr />
+    </section>
+
+    <!-- SECTION: Links and Media -->
+    <section id="media">
+      <h2>4. Links and Media</h2>
+
+      <h3>Links</h3>
+      <a href="https://www.google.com">Visit Google</a><br>
+      <a href="https://www.google.com" target="_blank">Open Google in New Tab</a><br>
+      <a href="sample.pdf" download>Download PDF</a><br>
+      <a href="#footer">Jump to Footer Section</a><br>
+      <a href="mailto:someone@example.com">Send Email</a><br>
+      <a href="tel:+911234567890">Call Us</a><br>
+
+      <h3>Images</h3>
+      <img src="logo.png" alt="Site Logo" width="150" />
+
+      <h3>Video</h3>
+      <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4" />
+        Your browser does not support video.
+      </video>
+
+      <h3>Audio</h3>
+      <audio controls>
+        <source src="song.mp3" type="audio/mpeg" />
+        Your browser does not support audio.
+      </audio>
+
+      <h3>Embed YouTube</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        frameborder="0" allowfullscreen></iframe>
+      <hr />
+    </section>
+
+    <!-- SECTION: Table -->
+    <section id="table">
+      <h2>5. Tables</h2>
+
+      <table border="1" cellpadding="10">
+        <caption>Student Scores</caption>
+        <tr>
+          <th>Name</th>
+          <th>Math</th>
+          <th>Science</th>
+        </tr>
+        <tr>
+          <td>Vishal</td>
+          <td>95</td>
+          <td>88</td>
+        </tr>
+        <tr>
+          <td>Alice</td>
+          <td>89</td>
+          <td>90</td>
+        </tr>
+      </table>
+
+      <br>
+
+    <!-- Table with merged cells using rowspan and colspan -->
+      <table border="1" cellpadding="10">
+        <caption>Student Scores <br> (merged cells using rowsapn & colspan)</caption>
+        <tr>
+          <th rowspan="2">Name</th>
+          <th colspan="2">Marks</th>
+        </tr>
+        <tr>
+          <td>Math</td>
+          <td>Science</td>
+        </tr>
+        <tr>
+        <td>Vishal</td>
+          <td>90</td>
+          <td>95</td>
+        </tr>
+      </table>
+
+      <hr />
+    </section>
+
+    <!-- SECTION: Form -->
+    <section id="form">
+      <h2>6. Registration Form</h2>
+
+      <form action="/submit" method="post">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required /><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required /><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" /><br><br>
+
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br><br>
+
+        <p>Skills:</p>
+        <input type="checkbox" id="html" name="skills" value="html" />
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="skills" value="css" />
+        <label for="css">CSS</label>
+        <input type="checkbox" id="js" name="skills" value="js" />
+        <label for="js">JavaScript</label><br><br>
+
+        <label for="city">Choose City:</label>
+        <select id="city" name="city">
+          <option value="">--Select--</option>
+          <option value="pune">Pune</option>
+          <option value="mumbai">Mumbai</option>
+        </select><br><br>
+
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume" /><br><br>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"
+          placeholder="Write something..."></textarea><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+      <hr />
+    </section>
+
+  </main>
+
+  <!-- FOOTER SECTION -->
+  <footer id="footer">
+    <p>&copy; 2025 Vishal's Learning Page | Designed with HTML5</p>
+  </footer>
+
+</body>
+
+</html>
