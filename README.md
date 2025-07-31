@@ -20,7 +20,7 @@ This project is a **self-explanatory HTML5 webpage** built to demonstrate all th
 
 ---
 
-## 📚 What You'll Learn by Reading or Modifying This Page
+## What You'll Learn by Reading or Modifying This Page
 
 ### ✅ HTML Modules Covered
 
@@ -37,7 +37,7 @@ This project is a **self-explanatory HTML5 webpage** built to demonstrate all th
 
 ---
 
-## 🧠 How to Use
+## How to Use
 
 1. **Open `index.html`** in your browser.
 2. Explore the layout and **read the comments** inside the HTML file to understand each tag.
@@ -46,13 +46,13 @@ This project is a **self-explanatory HTML5 webpage** built to demonstrate all th
 
 ---
 
-## 💡 Bonus Tip
+## Bonus Tip
 
 You can copy this code into **CodePen**, **JSFiddle**, or any **live server** (like VS Code Live Server) for instant preview and practice.
 
 ---
 
-## 🙌 Author
+## Author
 
-Made by **Vishal** as part of learning HTML from scratch, one module at a time 💻
+Made by **Vishal** as part of learning HTML from scratch, one module at a time 
 
