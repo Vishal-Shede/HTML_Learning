@@ -1,6 +1,6 @@
 # Vishal's HTML Learning Page
 
-This project is a **self-explanatory HTML5 webpage** built to demonstrate all the foundational HTML concepts covered up to **Module 8**, including:
+This project is a **self-explanatory HTML5 webpage** built to demonstrate all the foundational HTML concepts covered, including:
 
 - ✅ Basic HTML structure
 - ✅ Text formatting tags
@@ -54,5 +54,5 @@ You can copy this code into **CodePen**, **JSFiddle**, or any **live server** (l
 
 ## Author
 
-Made by **Vishal** as part of learning HTML from scratch, one module at a time 
+Made by **Vishal** as part of learning HTML from scratch.
 
